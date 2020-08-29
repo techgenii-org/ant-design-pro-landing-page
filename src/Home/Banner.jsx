@@ -27,18 +27,18 @@ function Banner(props) {
             style={{ transform: 'translateX(-64px)' }}
           />
         </div>
-        <h1 key="h1">ANT DESIGN PRO</h1>
+        <h1 key="h1">LANDING PAGE TEMPLATE</h1>
         <p key="content">
-          开箱即用的中台前端/设计解决方案
+          You are viewing the sample landing page template.
         </p>
         <div key="button" className="button-wrapper">
           <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
             <Button type="primary">
-              预览
+              About Us
             </Button>
           </a>
           <Button style={{ margin: '0 16px' }} type="primary" ghost>
-            开始使用
+            Contact Us
           </Button>
           <GitHubButton
             key="github-button"

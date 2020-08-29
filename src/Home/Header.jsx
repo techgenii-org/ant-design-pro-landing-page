@@ -23,19 +23,19 @@ class Header extends React.Component {
     const menu = (
       <Menu mode={menuMode} id="nav" key="nav">
         <Menu.Item key="home">
-          <a>首页</a>
+          <a>Home</a>
         </Menu.Item>
         <Menu.Item key="docs">
-          <a><span>文档</span></a>
+          <a><span>Docs</span></a>
         </Menu.Item>
         <Menu.Item key="components">
-          <a>组件</a>
+          <a>Blogs</a>
         </Menu.Item>
         {
           menuMode === 'inline' && (
             <Menu.Item key="preview">
               <a target="_blank" href="http://preview.pro.ant.design/" rel="noopener noreferrer">
-                预览
+                Preview
               </a>
             </Menu.Item>
           )
@@ -79,7 +79,7 @@ class Header extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <Button icon="eye-o">
-                    预览
+                    Preview
                   </Button>
                 </a>
               </div>
