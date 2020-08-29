@@ -27,9 +27,9 @@ function Banner(props) {
             style={{ transform: 'translateX(-64px)' }}
           />
         </div>
-        <h1 key="h1">LANDING PAGE TEMPLATE</h1>
+        <h1 key="h1">TechGenii</h1>
         <p key="content">
-          You are viewing the sample landing page template.
+          We think for developers.
         </p>
         <div key="button" className="button-wrapper">
           <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">

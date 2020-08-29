@@ -1,12 +1,6 @@
-### ant desing pro
-
-ant desing pro 里的 landing page. 
-
-脚手架使用的是： [antd-init](https://github.com/ant-design/antd-init);
-
 ## preview
 
-https://pro.ant.design
+https://landing-page-template.onrender.com/
 
 https://ant-motion.github.io/ant-design-pro-landing-page/
 
@@ -21,3 +15,9 @@ $ npm i
 ```
 $ npm start
 ```
+
+## Deployment
+
+Push to master branch
+
+Static site will be automatically deployed to  [Renden Cloud](https://web-app-template.techgenii.in/)
